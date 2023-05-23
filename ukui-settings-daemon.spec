@@ -49,7 +49,7 @@ BuildRequires:  pkgconfig(xcb-proto)
 BuildRequires:  pkgconfig(fontconfig)
 BuildRequires:  pkgconfig(dbus-glib-1)
 
-BuildRequires:  lib64ukui-interface-devel-1.0.1
+BuildRequires:  lib64ukui-interface-devel
 
 %description
 ukui-settings-daemon is the daemon of UKUI desktop, its function is to set
