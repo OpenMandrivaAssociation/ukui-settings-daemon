@@ -57,10 +57,11 @@ sessions and manage applications running for UKUI desktop.
 %autosetup -p1
 
 %build
-%qmake5
-
+%qmake_qt5
+%make_build
+  
 %install
-%qmake5_install
+%make_install
 
 %find_lang %{name}
 
