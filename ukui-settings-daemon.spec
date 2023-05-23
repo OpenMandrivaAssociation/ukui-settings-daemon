@@ -58,6 +58,7 @@ sessions and manage applications running for UKUI desktop.
 %prep
 %autosetup -p1
 
+sed -i 's|#include <ukuisdk/kylin-com4cxx.h>|#include <kylin-com4cxx.h>|' common/usd_base_class.h
 %build
 %qmake_qt5
 %make_build
