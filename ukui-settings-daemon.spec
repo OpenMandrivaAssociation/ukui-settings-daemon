@@ -8,6 +8,7 @@ Group:          System/GUI/Other
 Source0:        https://github.com/ukui/ukui-settings-daemon/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  fdupes
+BuildRequires:  qmake5
 BuildRequires:  qt5-linguist
 BuildRequires:  cmake(KF5WindowSystem)
 BuildRequires:  pkgconfig(Qt5Core)
