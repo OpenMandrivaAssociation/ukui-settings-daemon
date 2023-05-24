@@ -67,6 +67,8 @@ sessions and manage applications running for UKUI desktop.
 
 sed -i 's|#include <ukuisdk/kylin-com4cxx.h>|#include <kylin-com4cxx.h>|' common/usd_base_class.h
 %build
+export CC=gcc
+export CXX=g++
 %qmake_qt5
 %make_build
   
